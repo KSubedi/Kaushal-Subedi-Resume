@@ -1,0 +1,19 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently 'gulp' 'livereload dist' 'http-server dist -s'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2",
+    "http-server": "^0.11.1",
+    "livereload": "^0.7.0",
+    "node-sass": "^4.10.0"
+  }
+}
