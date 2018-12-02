@@ -78,16 +78,16 @@ body {
                 background-color: $sidebar-color;
                 border-radius: 20px 0 0 20px;
                 color: white;
-                width: 350px;
+                min-width: 300px !important;
+                padding: 20px;
+                font-weight: 300;
+
                 @if $print==true {
                     width: 250px;
                     border-radius: 0px;
-                }
-                padding: 20px;
-                @if $print==true {
                     padding: 10px;
                 }
-                font-weight: 300;
+                
                 @media(max-width: $media-mobile) {
                     width: auto;
                     border-radius: 0 0 0 0;
