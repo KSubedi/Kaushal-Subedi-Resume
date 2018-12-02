@@ -1,7 +1,7 @@
 $sidebar-color: #44abff;
 $container-color: rgb(233, 233, 233);
 $media-mobile: 802px;
-$print: false;
+$print: true;
 
 body,
 html {
@@ -78,17 +78,19 @@ body {
                 background-color: $sidebar-color;
                 border-radius: 20px 0 0 20px;
                 color: white;
-                min-width: 300px !important;
+                min-width: 300px;
                 padding: 20px;
                 font-weight: 300;
 
                 @if $print==true {
+                    min-width: 250px;
                     width: 250px;
                     border-radius: 0px;
                     padding: 10px;
                 }
                 
                 @media(max-width: $media-mobile) {
+                    min-width: auto;
                     width: auto;
                     border-radius: 0 0 0 0;
                 }
