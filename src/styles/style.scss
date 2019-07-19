@@ -86,7 +86,7 @@ body {
                     min-width: 250px;
                     width: 250px;
                     border-radius: 0px;
-                    padding: 10px;
+                    padding: 5px;
                 }
                 
                 @media(max-width: $media-mobile) {
@@ -97,7 +97,7 @@ body {
                 .portrait {
                     width: 250px;
                     height: 250px;
-                    background-image: url("../images/portrait.png");
+                    background-image: url("../images/portrait.jpg");
                     background-position: center; /* Center the image */
                     background-repeat: no-repeat; /* Do not repeat the image */
                     background-size: cover; /* Resize the background image to cover the entire container */
@@ -263,6 +263,11 @@ body {
                             .address {
                                 color: rgb(150, 150, 150);
                             }
+                        }
+                        .alttext{
+                            font-weight: 300;
+                            font-size: 0.8em;
+                            line-height: 0.8em;
                         }
                         .description {
                             margin-top: 15px;
